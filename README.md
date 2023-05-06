@@ -1,5 +1,5 @@
 # eclipse_proj
-# this is new project pushed from test1 working directory.
+# this is new project pushed from test1 local working directory to remote repositor without clone.
 #step 1 : move from current working directory to your local project directory
 #step 2 : initialize an empty git repository branch to master 
   git init -b master
