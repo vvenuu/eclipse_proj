@@ -16,6 +16,6 @@
 
 //int add(int *arr);
 int getID(int);
-char* getName();
+char* getName();   //Function pointer
 
 #endif /* INC_MAIN_H_ */

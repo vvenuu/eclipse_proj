@@ -46,7 +46,7 @@ int main()
 typedef struct {
 
 	int (*getID)(int);
-	char (*getName)();
+	char (*getName)(char*);
 	int Id;
 	char* Name;
 
@@ -84,7 +84,7 @@ int main(){
 	int i = 10;
 	int j = 20;
 	detail d1;
-
+	int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
 	//d1.getID = getID;
 	//d1.getName = (char*) getName;
@@ -104,7 +104,7 @@ int main(){
 	*s2 = 'L';
 	printf("The value is S2 %s, %d \n", s2, *m);
 
-
+	printf("The value is S2  %d \n", *m);
 	d1.getID=getID;
 	y = (int)d1.getID(x);
 
@@ -112,6 +112,7 @@ int main(){
 
 	str = getName(d1.Name);
 	printf("The id is %d and Name %s ", y, str);
+	printf(" The return value is %s", *arr, sizeof(arr));
 
 }
 

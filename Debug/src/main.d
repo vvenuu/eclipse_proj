@@ -1,4 +1,3 @@
-src/main.o: ../src/main.c \
- C:\Users\vvenu\eclipse-workspace\test1\inc/main.h
+src/main.o: ../src/main.c C:\Users\vvenu\git\eclipse_proj\inc/main.h
 
-C:\Users\vvenu\eclipse-workspace\test1\inc/main.h:
+C:\Users\vvenu\git\eclipse_proj\inc/main.h:
