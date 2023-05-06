@@ -100,9 +100,9 @@ int main(){
 	l = &i;
 	*m = 22;
 	//
-	printf("The value is S1 %s \n", s1);
+	printf("The value is S1 %s, %d \n", s1, *l);
 	*s2 = 'L';
-	printf("The value is S2 %s \n", s2);
+	printf("The value is S2 %s, %d \n", s2, *m);
 
 
 	d1.getID=getID;
